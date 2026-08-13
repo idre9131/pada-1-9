@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+.container {
+  background-color: #171c1f;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 10fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.erxes {
+  color: greenyellow;
+  font-size: xx-large;
+}
+.container2 {
+  margin-left: 900px;
+}

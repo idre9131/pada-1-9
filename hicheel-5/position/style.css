@@ -1,0 +1,49 @@
+div {
+  width: 400px;
+  height: 200px;
+  background-color: aqua;
+  border: 2px solid black;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  gap: 20px;
+}
+
+.static {
+  position: static;
+  z-index: 4;
+}
+
+.relative {
+  position: relative;
+  top: 100px;
+  right: 100px;
+  z-index: 3;
+}
+
+.absolute {
+  position: relative;
+}
+
+.box {
+  background-color: red;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+}
+
+.sticky {
+  position: sticky;
+  top: 100px;
+}
+
+body {
+  height: 200vh;
+}

@@ -1,0 +1,28 @@
+body {
+  background: #0d1117;
+  color: #f8fafc;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  /* absolute хүүхдийн тулгуур цэг болгоно */
+  position: relative;
+  width: 320px;
+  margin: 60px auto;
+  padding: 24px;
+  background: #161b22;
+  border-radius: 12px;
+}
+
+.badge {
+  /* .card-аас хэмжиж баруун дээд буланд байрлуулна */
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  padding: 6px 12px;
+  background: #39d353;
+  color: #0d1117;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+}

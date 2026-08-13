@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(to bottom, gray, rgb(79, 77, 77));
+}
+div {
+  background-color: aqua;
+}
+id {
+  background-color: purple;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: yellowgreen;
+}
